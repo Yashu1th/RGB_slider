@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+  
+}
+.container{
+    background-color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:60%;
+    padding:20px 0;
+    font-size:20px;
+    border-radius:5px;
+    display:grid;
+    place-items:center;
+    box-shadow: 20px 20px 30px rgba(0 0 0 0.2);
+}
+.wrapper{
+    width:100%;
+    text-align:center;
+
+}
+input[type="range"]{
+    display:inline-block;
+    width:80%;
+    margin-left:10px;
+    margin-top:25px;
+}
+span{
+    display:inline-block;
+    text-align:center;
+    margin:20px 0;
+    background-color: aqua;
+    color:white;
+    padding:10px 30px;
+    border-radius:5px;
+}
